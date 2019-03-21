@@ -1,0 +1,59 @@
+PODS:
+  - Alamofire (4.4.0)
+  - BRYXBanner (0.7.1)
+  - FLAnimatedImage (1.0.12)
+  - PINCache (2.3)
+  - PINRemoteImage (2.1.4):
+    - PINRemoteImage/FLAnimatedImage (= 2.1.4)
+  - PINRemoteImage/Core (2.1.4):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (2.1.4):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - SwiftyBeaver (1.1.1)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, tag `4.4.0`)
+  - BRYXBanner (from `https://github.com/bryx-inc/BRYXBanner.git`, tag `0.7.1`)
+  - PINRemoteImage (~> 2.1)
+  - SwiftyBeaver (from `https://github.com/SwiftyBeaver/SwiftyBeaver.git`, tag `1.1.1`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FLAnimatedImage
+    - PINCache
+    - PINRemoteImage
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 4.4.0
+  BRYXBanner:
+    :git: https://github.com/bryx-inc/BRYXBanner.git
+    :tag: 0.7.1
+  SwiftyBeaver:
+    :git: https://github.com/SwiftyBeaver/SwiftyBeaver.git
+    :tag: 1.1.1
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 4.4.0
+  BRYXBanner:
+    :git: https://github.com/bryx-inc/BRYXBanner.git
+    :tag: 0.7.1
+  SwiftyBeaver:
+    :git: https://github.com/SwiftyBeaver/SwiftyBeaver.git
+    :tag: 1.1.1
+
+SPEC CHECKSUMS:
+  Alamofire: 4c2bf7fa03c4a626163606de0a417568c270575e
+  BRYXBanner: 34eabf9c6c009f187948ca78a4f3bba3767d0f04
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
+  SwiftyBeaver: ff3f9c3c5ee5161b864ec464e2b0f9ed77a3067d
+
+PODFILE CHECKSUM: 67e364a199eff4f42c4fdbec2a1dcdaae30f145d
+
+COCOAPODS: 1.6.1

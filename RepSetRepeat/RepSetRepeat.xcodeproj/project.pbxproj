@@ -16,6 +16,7 @@
 		B38AE2EC2243D82C00A28121 /* RepSetRepeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38AE2EB2243D82C00A28121 /* RepSetRepeatUITests.swift */; };
 		B38AE2FA2243DE4800A28121 /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38AE2F92243DE4800A28121 /* MainTab.swift */; };
 		B38AE2FC2243E79E00A28121 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38AE2FB2243E79E00A28121 /* LoginViewController.swift */; };
+		D2FDFAE3E0DDFF4E2B7F1A2E /* Pods_RepSetRepeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F71D1FAF6023F13D2E7B092 /* Pods_RepSetRepeat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F71D1FAF6023F13D2E7B092 /* Pods_RepSetRepeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepSetRepeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8FC977499A2B3B4DCD4F0C /* Pods-RepSetRepeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepSetRepeat.release.xcconfig"; path = "Target Support Files/Pods-RepSetRepeat/Pods-RepSetRepeat.release.xcconfig"; sourceTree = "<group>"; };
+		6015351A3C8F89724A347977 /* Pods-RepSetRepeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepSetRepeat.debug.xcconfig"; path = "Target Support Files/Pods-RepSetRepeat/Pods-RepSetRepeat.debug.xcconfig"; sourceTree = "<group>"; };
 		B38AE2C82243D82A00A28121 /* RepSetRepeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepSetRepeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38AE2CB2243D82A00A28121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B38AE2CD2243D82A00A28121 /* WorkoutSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSetViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FDFAE3E0DDFF4E2B7F1A2E /* Pods_RepSetRepeat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31B827ACA5163BBE2056FFEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6015351A3C8F89724A347977 /* Pods-RepSetRepeat.debug.xcconfig */,
+				5F8FC977499A2B3B4DCD4F0C /* Pods-RepSetRepeat.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		8681C5DC1C56B615A5C92647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F71D1FAF6023F13D2E7B092 /* Pods_RepSetRepeat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B38AE2BF2243D82A00A28121 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +108,8 @@
 				B38AE2DF2243D82C00A28121 /* RepSetRepeatTests */,
 				B38AE2EA2243D82C00A28121 /* RepSetRepeatUITests */,
 				B38AE2C92243D82A00A28121 /* Products */,
+				31B827ACA5163BBE2056FFEC /* Pods */,
+				8681C5DC1C56B615A5C92647 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B38AE2F02243D82C00A28121 /* Build configuration list for PBXNativeTarget "RepSetRepeat" */;
 			buildPhases = (
+				E781C2C307FBB629A5E1321B /* [CP] Check Pods Manifest.lock */,
 				B38AE2C42243D82A00A28121 /* Sources */,
 				B38AE2C52243D82A00A28121 /* Frameworks */,
 				B38AE2C62243D82A00A28121 /* Resources */,
+				81D7095918997CED1F416CC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81D7095918997CED1F416CC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RepSetRepeat/Pods-RepSetRepeat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BRYXBanner/BRYXBanner.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BRYXBanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RepSetRepeat/Pods-RepSetRepeat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E781C2C307FBB629A5E1321B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RepSetRepeat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B38AE2C42243D82A00A28121 /* Sources */ = {
@@ -438,6 +522,7 @@
 		};
 		B38AE2F12243D82C00A28121 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6015351A3C8F89724A347977 /* Pods-RepSetRepeat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +541,7 @@
 		};
 		B38AE2F22243D82C00A28121 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8FC977499A2B3B4DCD4F0C /* Pods-RepSetRepeat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
