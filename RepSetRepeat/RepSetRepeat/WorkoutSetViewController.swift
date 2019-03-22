@@ -13,16 +13,6 @@ class WorkoutSetViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let url =  "https://rep-set-repeat.herokuapp.com/api/workouts"
-        let headers: HTTPHeaders = [
-                                    "Authorization": ,
-                                    "Accept": "application/json"
-                                    ]
-        
-        Alamofire.request(url, method: .get, headers: headers).responseJSON {
-            response in debugPrint(response)
-        }
     }
 }
 

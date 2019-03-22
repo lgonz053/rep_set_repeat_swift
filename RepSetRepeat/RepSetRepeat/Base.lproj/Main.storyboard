@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="3356" y="-107"/>
         </scene>
-        <!--View Controller-->
+        <!--Workout View Controller-->
         <scene sceneID="Z2G-oz-28R">
             <objects>
-                <viewController id="QkJ-Q1-pvD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WorkoutViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QkJ-Q1-pvD" customClass="WorkoutViewController" customModule="RepSetRepeat" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PrH-bY-yiN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

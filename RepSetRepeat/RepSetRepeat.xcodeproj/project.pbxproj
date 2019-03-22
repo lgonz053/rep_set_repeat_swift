@@ -16,6 +16,7 @@
 		B38AE2EC2243D82C00A28121 /* RepSetRepeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38AE2EB2243D82C00A28121 /* RepSetRepeatUITests.swift */; };
 		B38AE2FA2243DE4800A28121 /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38AE2F92243DE4800A28121 /* MainTab.swift */; };
 		B38AE2FC2243E79E00A28121 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38AE2FB2243E79E00A28121 /* LoginViewController.swift */; };
+		B3EB2361224448FF0002735D /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EB2360224448FF0002735D /* WorkoutViewController.swift */; };
 		D2FDFAE3E0DDFF4E2B7F1A2E /* Pods_RepSetRepeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F71D1FAF6023F13D2E7B092 /* Pods_RepSetRepeat.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		B38AE2ED2243D82C00A28121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B38AE2F92243DE4800A28121 /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
 		B38AE2FB2243E79E00A28121 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B3EB2360224448FF0002735D /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				B38AE2D72243D82C00A28121 /* Info.plist */,
 				B38AE2F92243DE4800A28121 /* MainTab.swift */,
 				B38AE2FB2243E79E00A28121 /* LoginViewController.swift */,
+				B3EB2360224448FF0002735D /* WorkoutViewController.swift */,
 			);
 			path = RepSetRepeat;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3EB2361224448FF0002735D /* WorkoutViewController.swift in Sources */,
 				B38AE2CE2243D82A00A28121 /* WorkoutSetViewController.swift in Sources */,
 				B38AE2FA2243DE4800A28121 /* MainTab.swift in Sources */,
 				B38AE2CC2243D82A00A28121 /* AppDelegate.swift in Sources */,
