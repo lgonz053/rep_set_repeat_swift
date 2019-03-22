@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B30D05F2224538D100E2037D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30D05F0224538D100E2037D /* Main.storyboard */; };
 		B38AE2CC2243D82A00A28121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38AE2CB2243D82A00A28121 /* AppDelegate.swift */; };
 		B38AE2CE2243D82A00A28121 /* WorkoutSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38AE2CD2243D82A00A28121 /* WorkoutSetViewController.swift */; };
-		B38AE2D12243D82A00A28121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38AE2CF2243D82A00A28121 /* Main.storyboard */; };
 		B38AE2D32243D82C00A28121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38AE2D22243D82C00A28121 /* Assets.xcassets */; };
 		B38AE2D62243D82C00A28121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38AE2D42243D82C00A28121 /* LaunchScreen.storyboard */; };
 		B38AE2E12243D82C00A28121 /* RepSetRepeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38AE2E02243D82C00A28121 /* RepSetRepeatTests.swift */; };
 		B38AE2EC2243D82C00A28121 /* RepSetRepeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38AE2EB2243D82C00A28121 /* RepSetRepeatUITests.swift */; };
 		B38AE2FA2243DE4800A28121 /* MainTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38AE2F92243DE4800A28121 /* MainTab.swift */; };
 		B38AE2FC2243E79E00A28121 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38AE2FB2243E79E00A28121 /* LoginViewController.swift */; };
-		B3EB2361224448FF0002735D /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EB2360224448FF0002735D /* WorkoutViewController.swift */; };
 		D2FDFAE3E0DDFF4E2B7F1A2E /* Pods_RepSetRepeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F71D1FAF6023F13D2E7B092 /* Pods_RepSetRepeat.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,10 +40,10 @@
 		2F71D1FAF6023F13D2E7B092 /* Pods_RepSetRepeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepSetRepeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8FC977499A2B3B4DCD4F0C /* Pods-RepSetRepeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepSetRepeat.release.xcconfig"; path = "Target Support Files/Pods-RepSetRepeat/Pods-RepSetRepeat.release.xcconfig"; sourceTree = "<group>"; };
 		6015351A3C8F89724A347977 /* Pods-RepSetRepeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepSetRepeat.debug.xcconfig"; path = "Target Support Files/Pods-RepSetRepeat/Pods-RepSetRepeat.debug.xcconfig"; sourceTree = "<group>"; };
+		B30D05F1224538D100E2037D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B38AE2C82243D82A00A28121 /* RepSetRepeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepSetRepeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38AE2CB2243D82A00A28121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B38AE2CD2243D82A00A28121 /* WorkoutSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSetViewController.swift; sourceTree = "<group>"; };
-		B38AE2D02243D82A00A28121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B38AE2D22243D82C00A28121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B38AE2D52243D82C00A28121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B38AE2D72243D82C00A28121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +55,6 @@
 		B38AE2ED2243D82C00A28121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B38AE2F92243DE4800A28121 /* MainTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTab.swift; sourceTree = "<group>"; };
 		B38AE2FB2243E79E00A28121 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		B3EB2360224448FF0002735D /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,13 +128,12 @@
 			children = (
 				B38AE2CB2243D82A00A28121 /* AppDelegate.swift */,
 				B38AE2CD2243D82A00A28121 /* WorkoutSetViewController.swift */,
-				B38AE2CF2243D82A00A28121 /* Main.storyboard */,
 				B38AE2D22243D82C00A28121 /* Assets.xcassets */,
 				B38AE2D42243D82C00A28121 /* LaunchScreen.storyboard */,
+				B30D05F0224538D100E2037D /* Main.storyboard */,
 				B38AE2D72243D82C00A28121 /* Info.plist */,
 				B38AE2F92243DE4800A28121 /* MainTab.swift */,
 				B38AE2FB2243E79E00A28121 /* LoginViewController.swift */,
-				B3EB2360224448FF0002735D /* WorkoutViewController.swift */,
 			);
 			path = RepSetRepeat;
 			sourceTree = "<group>";
@@ -265,9 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30D05F2224538D100E2037D /* Main.storyboard in Resources */,
 				B38AE2D62243D82C00A28121 /* LaunchScreen.storyboard in Resources */,
 				B38AE2D32243D82C00A28121 /* Assets.xcassets in Resources */,
-				B38AE2D12243D82A00A28121 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +346,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3EB2361224448FF0002735D /* WorkoutViewController.swift in Sources */,
 				B38AE2CE2243D82A00A28121 /* WorkoutSetViewController.swift in Sources */,
 				B38AE2FA2243DE4800A28121 /* MainTab.swift in Sources */,
 				B38AE2CC2243D82A00A28121 /* AppDelegate.swift in Sources */,
@@ -389,10 +385,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B38AE2CF2243D82A00A28121 /* Main.storyboard */ = {
+		B30D05F0224538D100E2037D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B38AE2D02243D82A00A28121 /* Base */,
+				B30D05F1224538D100E2037D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
