@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-class WorkoutSetViewController: UIViewController {
+class WorkoutSetViewController: UIViewController, UITextFieldDelegate {
     var button = dropDownBtn()
     
     @IBOutlet weak var setText: UITextField!
@@ -45,22 +45,45 @@ class WorkoutSetViewController: UIViewController {
             return
         }
         
-        let url =  "https://rep-set-repeat.herokuapp.com/api/workouts/2"
+        let url =  "https://rep-set-repeat.herokuapp.com/api/workout_sets"
         let headers: HTTPHeaders = [
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE1NTUxMDY0NDB9.bsUED_l4S1YXaSsce2GzR_STPAhzZSRddNmhrLAwA7I",
-            "Accept": "application/json"
+            "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE1NTUxODg3NDh9.zsPjtdyaWHdmT_P5LU3xbV0jlelQB21-rPd__QIkh5E",
+            "Content-Type": "application/json"
         ]
         
-        let parameters: Parameters = [
-                                      "setText": setText.text!,
-                                      "repText": repText.text!,
-                                      "weightText": weightText.text!,
-                                      "exerciseText": exerciseText.text!,
-                                      "workout_id": "2",
-                                      "exercise_id": "1"
+        let parameters: [String: Any] = [
+                                      "groups": setText.text!,
+                                      "reps": repText.text!,
+                                      "weight": weightText.text!,
+                                      "workout_id": 2,
+                                      "exercise_id": 1
             ]
         
-        Alamofire.request(url, method: .post, parameters: parameters, headers: headers)
+        Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers).validate(statusCode: 200..<600)
+            .responseJSON { response in
+                
+                switch response.result
+                {
+                case .failure(let error):
+                    if let data = response.data {
+                        print("Print Server Error: " + String(data: data, encoding: String.Encoding.utf8)!)
+                    }
+                    print(error)
+                    
+                case .success(let value):
+                    
+                    print(value)
+                }
+        }
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return (true)
     }
 }
 
