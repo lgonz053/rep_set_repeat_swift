@@ -181,7 +181,7 @@ class dropDownView: UIView, UITableViewDelegate, UITableViewDataSource {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        tableView.backgroundColor = UIColor.darkGray
+        tableView.backgroundColor = UIColor.white
         self.backgroundColor = UIColor.darkGray
         
         tableView.delegate = self
