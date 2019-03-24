@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maria-fernanda-gonzalez-461523-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="ttJ-qU-08a">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4k-wallpaper-afterglow-blur-1236701" translatesAutoresizingMaskIntoConstraints="NO" id="ttJ-qU-08a">
                                 <rect key="frame" x="0.0" y="64" width="414" height="623"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -136,7 +136,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maria-fernanda-gonzalez-461521-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="FPn-8g-joi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4k-wallpaper-afterglow-blur-1236701" translatesAutoresizingMaskIntoConstraints="NO" id="FPn-8g-joi">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -204,8 +204,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="4k-wallpaper-afterglow-blur-1236701" width="4000" height="6000"/>
         <image name="icons8-muscle-50" width="25.5" height="25.5"/>
-        <image name="maria-fernanda-gonzalez-461521-unsplash" width="3687" height="5530"/>
-        <image name="maria-fernanda-gonzalez-461523-unsplash" width="4000" height="6000"/>
     </resources>
 </document>
